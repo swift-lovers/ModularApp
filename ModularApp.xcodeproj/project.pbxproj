@@ -18,10 +18,6 @@
 		0287B1766CB83D3BDC70F53B /* ModularAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularAppApp.swift; sourceTree = "<group>"; };
 		58C2174FA5E37597D7309FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D13911164C2FC24E4B54220 /* ModularApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ModularApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F352D10BC8E6A98B8A3ED25 /* RepoSync */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RepoSync; path = RepoSync; sourceTree = SOURCE_ROOT; };
-		97EE5828513329704C011342 /* ModularApp-Core-UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ModularApp-Core-UI"; path = "ModularApp-Core-UI"; sourceTree = SOURCE_ROOT; };
-		9D3E092C9821BA1909D046D9 /* ModularApp-Feature-Home */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ModularApp-Feature-Home"; path = "ModularApp-Feature-Home"; sourceTree = SOURCE_ROOT; };
-		CD4CC10D3436E5A21B5E2AE4 /* ModularApp-Core-Network */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ModularApp-Core-Network"; path = "ModularApp-Core-Network"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,21 +45,9 @@
 		2A98AED294F0902EB8DA0244 = {
 			isa = PBXGroup;
 			children = (
-				53EC44E3C13AC1B941759740 /* Packages */,
 				843498A29BCBA14656CEE427 /* Sources */,
 				149588DB84F4CAFE4D207D1F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		53EC44E3C13AC1B941759740 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				CD4CC10D3436E5A21B5E2AE4 /* ModularApp-Core-Network */,
-				97EE5828513329704C011342 /* ModularApp-Core-UI */,
-				9D3E092C9821BA1909D046D9 /* ModularApp-Feature-Home */,
-				8F352D10BC8E6A98B8A3ED25 /* RepoSync */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 		843498A29BCBA14656CEE427 /* Sources */ = {
@@ -120,10 +104,10 @@
 			mainGroup = 2A98AED294F0902EB8DA0244;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				334DA79ECD87CC08949BBDD4 /* XCLocalSwiftPackageReference "ModularApp-Core-Network" */,
-				2837FDA8DA590FF6A495421B /* XCLocalSwiftPackageReference "ModularApp-Core-UI" */,
-				E0893A3E5673F4F805E6674B /* XCLocalSwiftPackageReference "ModularApp-Feature-Home" */,
-				615E5276196D154FDD78BEAB /* XCLocalSwiftPackageReference "RepoSync" */,
+				86185F225124091A03193C54 /* XCRemoteSwiftPackageReference "ModularApp-Core-Network" */,
+				A2B8E5BFE80D84CA165B509B /* XCRemoteSwiftPackageReference "ModularApp-Core-UI" */,
+				8229AEFA8FC682F3048D3995 /* XCRemoteSwiftPackageReference "ModularApp-Feature-Home" */,
+				E0C21116B36745EE031CBC71 /* XCRemoteSwiftPackageReference "RepoSync" */,
 			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
@@ -329,36 +313,55 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		2837FDA8DA590FF6A495421B /* XCLocalSwiftPackageReference "ModularApp-Core-UI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "ModularApp-Core-UI";
+/* Begin XCRemoteSwiftPackageReference section */
+		8229AEFA8FC682F3048D3995 /* XCRemoteSwiftPackageReference "ModularApp-Feature-Home" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alesh14/ModularApp-Feature-Home";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
 		};
-		334DA79ECD87CC08949BBDD4 /* XCLocalSwiftPackageReference "ModularApp-Core-Network" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "ModularApp-Core-Network";
+		86185F225124091A03193C54 /* XCRemoteSwiftPackageReference "ModularApp-Core-Network" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alesh14/ModularApp-Core-Network";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
 		};
-		615E5276196D154FDD78BEAB /* XCLocalSwiftPackageReference "RepoSync" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = RepoSync;
+		A2B8E5BFE80D84CA165B509B /* XCRemoteSwiftPackageReference "ModularApp-Core-UI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alesh14/ModularApp-Core-UI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
 		};
-		E0893A3E5673F4F805E6674B /* XCLocalSwiftPackageReference "ModularApp-Feature-Home" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "ModularApp-Feature-Home";
+		E0C21116B36745EE031CBC71 /* XCRemoteSwiftPackageReference "RepoSync" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alesh14/RepoSync";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		1DF2DFED580989DDDEF94644 /* FeatureHome */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 8229AEFA8FC682F3048D3995 /* XCRemoteSwiftPackageReference "ModularApp-Feature-Home" */;
 			productName = FeatureHome;
 		};
 		27099D77F2A95B2958EF090C /* CoreNetwork */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 86185F225124091A03193C54 /* XCRemoteSwiftPackageReference "ModularApp-Core-Network" */;
 			productName = CoreNetwork;
 		};
 		859EA341F08A96C3ACF98658 /* CoreUI */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = A2B8E5BFE80D84CA165B509B /* XCRemoteSwiftPackageReference "ModularApp-Core-UI" */;
 			productName = CoreUI;
 		};
 /* End XCSwiftPackageProductDependency section */

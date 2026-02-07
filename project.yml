@@ -8,13 +8,17 @@ options:
 
 packages:
   CoreNetwork:
-    path: ModularApp-Core-Network
+    url: https://github.com/Alesh14/ModularApp-Core-Network
+    from: "0.0.1"
   CoreUI:
-    path: ModularApp-Core-UI
+    url: https://github.com/Alesh14/ModularApp-Core-UI
+    from: "0.0.1"
   FeatureHome:
-    path: ModularApp-Feature-Home
+    url: https://github.com/Alesh14/ModularApp-Feature-Home
+    from: "0.0.1"
   ModularAppTools:
-    path: RepoSync
+    url: https://github.com/Alesh14/RepoSync
+    from: "0.0.1"
 
 targets:
   ModularApp:

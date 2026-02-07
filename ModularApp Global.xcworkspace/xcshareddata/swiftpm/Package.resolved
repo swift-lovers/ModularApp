@@ -1,0 +1,42 @@
+{
+  "originHash" : "40aaed2f87735b4ffb2f7ceafec7f392541cfc158dabfa02ea2534fb3b3a00b7",
+  "pins" : [
+    {
+      "identity" : "modularapp-core-network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alesh14/ModularApp-Core-Network",
+      "state" : {
+        "revision" : "d0ac174d799597cab9def9a805525ed3fffd0c8e",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "modularapp-core-ui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alesh14/ModularApp-Core-UI",
+      "state" : {
+        "revision" : "c45cc1d83685c7d4d1dafc79fa8b669ae46bd99e",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "modularapp-feature-home",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alesh14/ModularApp-Feature-Home",
+      "state" : {
+        "revision" : "0bfc524e6ac6c6d3d7aa4ba3fd37c11caafae61d",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "reposync",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alesh14/RepoSync",
+      "state" : {
+        "revision" : "0524f5fecc5080606fec409caa13727cd822d0ec",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
