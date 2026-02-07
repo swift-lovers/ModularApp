@@ -1,0 +1,36 @@
+name: ModularApp
+options:
+  bundleIdPrefix: com.alesh14.modularapp
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+packages:
+  CoreNetwork:
+    path: ModularApp-Core-Network
+  CoreUI:
+    path: ModularApp-Core-UI
+
+targets:
+  ModularApp:
+    type: application
+    platform: iOS
+    sources:
+      - ModularApp/Sources
+    resources:
+      - ModularApp/Resources
+    settings:
+      base:
+        INFOPLIST_GENERATION_MODE: GeneratedFile
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: 1
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.alesh14.modularapp
+        SWIFT_VERSION: "5.9"
+    dependencies:
+      - package: CoreNetwork
+      - package: CoreUI
+    scheme:
+      testTargets: []
+      gatherCoverageData: false

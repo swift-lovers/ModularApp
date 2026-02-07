@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA2FAB7EB08E567F7908B69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2174FA5E37597D7309FBE /* ContentView.swift */; };
+		2D26A59A11A3C88C30AB9967 /* CoreUI in Frameworks */ = {isa = PBXBuildFile; productRef = 859EA341F08A96C3ACF98658 /* CoreUI */; };
+		9AF78FA817CF4FDAB9F7755C /* ModularAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287B1766CB83D3BDC70F53B /* ModularAppApp.swift */; };
+		BAD3BBD6405E4F70AFB626BE /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 27099D77F2A95B2958EF090C /* CoreNetwork */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0287B1766CB83D3BDC70F53B /* ModularAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularAppApp.swift; sourceTree = "<group>"; };
+		58C2174FA5E37597D7309FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D13911164C2FC24E4B54220 /* ModularApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ModularApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EE5828513329704C011342 /* ModularApp-Core-UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ModularApp-Core-UI"; path = "ModularApp-Core-UI"; sourceTree = SOURCE_ROOT; };
+		CD4CC10D3436E5A21B5E2AE4 /* ModularApp-Core-Network */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ModularApp-Core-Network"; path = "ModularApp-Core-Network"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40104992AA651C73C7D4B983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD3BBD6405E4F70AFB626BE /* CoreNetwork in Frameworks */,
+				2D26A59A11A3C88C30AB9967 /* CoreUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149588DB84F4CAFE4D207D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D13911164C2FC24E4B54220 /* ModularApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A98AED294F0902EB8DA0244 = {
+			isa = PBXGroup;
+			children = (
+				53EC44E3C13AC1B941759740 /* Packages */,
+				843498A29BCBA14656CEE427 /* Sources */,
+				149588DB84F4CAFE4D207D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53EC44E3C13AC1B941759740 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CC10D3436E5A21B5E2AE4 /* ModularApp-Core-Network */,
+				97EE5828513329704C011342 /* ModularApp-Core-UI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		843498A29BCBA14656CEE427 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				58C2174FA5E37597D7309FBE /* ContentView.swift */,
+				0287B1766CB83D3BDC70F53B /* ModularAppApp.swift */,
+			);
+			name = Sources;
+			path = ModularApp/Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A31967D3E65C4FF23FED5AF /* ModularApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C75A50A83F4361A3E230BF /* Build configuration list for PBXNativeTarget "ModularApp" */;
+			buildPhases = (
+				50A97C61261138D0EF27E9CC /* Sources */,
+				40104992AA651C73C7D4B983 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModularApp;
+			packageProductDependencies = (
+				27099D77F2A95B2958EF090C /* CoreNetwork */,
+				859EA341F08A96C3ACF98658 /* CoreUI */,
+			);
+			productName = ModularApp;
+			productReference = 6D13911164C2FC24E4B54220 /* ModularApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC54AC82B9FA6AA65FD35CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 6D923D174D1CD87EAD4E04E7 /* Build configuration list for PBXProject "ModularApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2A98AED294F0902EB8DA0244;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				334DA79ECD87CC08949BBDD4 /* XCLocalSwiftPackageReference "ModularApp-Core-Network" */,
+				2837FDA8DA590FF6A495421B /* XCLocalSwiftPackageReference "ModularApp-Core-UI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A31967D3E65C4FF23FED5AF /* ModularApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A97C61261138D0EF27E9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA2FAB7EB08E567F7908B69 /* ContentView.swift in Sources */,
+				9AF78FA817CF4FDAB9F7755C /* ModularAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		056564867B4606D7A4A61DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20B7BAE7C40B563A7D09EDBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alesh14.modularapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708824BCBAA57BDAE60DB395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alesh14.modularapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF7890453DD1209A8D4A690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C75A50A83F4361A3E230BF /* Build configuration list for PBXNativeTarget "ModularApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B7BAE7C40B563A7D09EDBA /* Debug */,
+				708824BCBAA57BDAE60DB395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D923D174D1CD87EAD4E04E7 /* Build configuration list for PBXProject "ModularApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF7890453DD1209A8D4A690 /* Debug */,
+				056564867B4606D7A4A61DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2837FDA8DA590FF6A495421B /* XCLocalSwiftPackageReference "ModularApp-Core-UI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "ModularApp-Core-UI";
+		};
+		334DA79ECD87CC08949BBDD4 /* XCLocalSwiftPackageReference "ModularApp-Core-Network" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "ModularApp-Core-Network";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27099D77F2A95B2958EF090C /* CoreNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetwork;
+		};
+		859EA341F08A96C3ACF98658 /* CoreUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CC54AC82B9FA6AA65FD35CA /* Project object */;
+}
